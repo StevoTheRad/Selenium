@@ -22,9 +22,11 @@ public class SeleniumTest {
 
     @BeforeEach
     void setUp() {
-        ChromeOptions option = new ChromeOptions();
-        option.addArguments("--remote-allow-origins=*");
-        driver = new ChromeDriver(option);
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--headless");
+        driver = new ChromeDriver(options);
 
     }
 
