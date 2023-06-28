@@ -1,1 +1,1 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/dlv724q0vx66k0ny?svg=true)](https://ci.appveyor.com/project/StevoTheRad/selenium)
+[![Java CI with Gradle](https://github.com/StevoTheRad/Selenium/actions/workflows/gradle.yml/badge.svg?branch=main)](https://github.com/StevoTheRad/Selenium/actions/workflows/gradle.yml)
